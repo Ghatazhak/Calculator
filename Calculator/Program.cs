@@ -1,6 +1,6 @@
-﻿using System;
+﻿ using System;
 
-namespace CalculatorProgram
+namespace Calculator
 {
     
     class Program
@@ -12,7 +12,7 @@ namespace CalculatorProgram
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
 
-            Calculator calculator = new Calculator();
+            CalculatorProgram.Calculator calculator = new CalculatorProgram.Calculator();
 
             while (!endApp)
             {
