@@ -12,7 +12,7 @@ namespace Calculator
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
 
-            CalculatorProgram.Calculator calculator = new CalculatorProgram.Calculator();
+            CalculatorLibrary.Calculator calculator = new CalculatorLibrary.Calculator();
 
             while (!endApp)
             {
@@ -75,7 +75,11 @@ namespace Calculator
 
                 Console.WriteLine("\n"); // Friendly linespacing.
             }
+
+            // Add call to close the JSON writer before return
+            calculator.Finish();
             return;
+        } 
+
         }
     }
-}
