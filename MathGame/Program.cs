@@ -6,7 +6,7 @@
         {
             double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 
-            // Use a switch statement to do the math.
+            // Use a switch statement to do the math. Adding this for testing purposes.
             switch (op)
             {
                 case "a":
